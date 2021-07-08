@@ -1,0 +1,1 @@
+Tarballs (.tar.gz) of the source code for lqns.  See the README files for build instructions (./configure; make; make install). Builds on Windows with mingw64, though extra packages are needed.  See README-Local.
