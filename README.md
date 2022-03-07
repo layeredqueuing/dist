@@ -1,6 +1,6 @@
-Tarballs (.tar.gz) of the source code for lqns.  See the README files for build instructions (./configure; make; make install). Builds on Windows with mingw64, though extra packages are needed. 
+Tarballs (.tar.gz) of the source code for lqns.  See the README files for build instructions (./configure; make; make install). For Windows, use MingGW64 (and use the 32-bit version of msys).
 
-Tou bould, you require the following programs/packages which may not be installed by default on Linux/MinGW/FreeBSD/...
+To build, you require the following programs/packages which may not be installed by default on Linux/MinGW/FreeBSD/...
   flex,
   bison,
   gcc-c++,
@@ -10,10 +10,9 @@ Tou bould, you require the following programs/packages which may not be installe
   gd-devel (optional for png/jpeg output),
   texlive (optional for documentation),
   texlive-epsf (optional for documentation),
-  xfig (optional for documentation),
-  fig2dev (optional for documentation),
+  fig2dev (optional for documentation).
   
-  On Redhat (Fedora, Centos,...), use "sudo dnf install {program}".
+  On Redhat (Fedora, Centos,...), use "dnf install {program}".
   On Ubuntu, use "apt-get install {program}".
-  On MinGW, use pacman ????
+  On MinGW, use "pacman install {program}".
   On MacOS, use "port install {program}", or fink ???, or brew ????
