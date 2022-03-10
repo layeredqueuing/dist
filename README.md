@@ -4,7 +4,7 @@ To build, you require the following programs/packages which may not be installed
   flex,
   bison,
   gcc-c++,
-  expat,
+  expat-devel (header files are necessary),
   automake,
   libtool,
   gd-devel (optional for png/jpeg output),
