@@ -7,6 +7,7 @@ To build, you require the following programs/packages which may not be installed
   expat-devel (header files are necessary),
   automake,
   libtool,
+  groff (man pages)
   gd-devel (optional for png/jpeg output),
   texlive (optional for documentation),
   texlive-epsf (optional for documentation),
